@@ -1,0 +1,101 @@
+:root {
+    --color-text: #d4dbea;
+    --color-primario: #97a4e0;
+    --color-secundario: #586588;
+    --color-destacado: #222b3d;
+}
+
+form {
+    color: var(--color-text);
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.5rem;
+}
+form select:focus{
+    box-shadow: 0px 0px 10px #97a4e0c1;
+}
+form select {
+    color: var(--color-text);
+    background-color: #58658898;
+    border: 1px solid var(--color-primario);
+    border-radius: 5px;
+    height: 2rem;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+}
+form input {
+    background-color: #58658898;
+    border: 1px solid var(--color-primario);
+    border-radius: 5px;
+    height: 2rem;
+    width: 100%;
+    font-size: 1rem;
+    color: var(--color-text);
+    outline: none;
+    
+}
+form input:focus{
+    box-shadow: 0px 0px 10px #97a4e0c1;
+}
+form button:hover {
+    background-color: var(--color-primario);
+    color: var(--color-destacado)!important;
+    box-shadow: 0px 0px 10px #97a4e0c1;
+}
+form button {
+    width: 50%;
+    align-content: center;
+    padding: 0.5rem 0.5rem;
+    font-size: 1.2rem;
+    background-color: #58658898;
+    color: var(--color-text)!important;
+    border: 1px solid var(--color-primario);
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.datos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.datos.adicional textarea {
+    background-color: #58658898;
+    border: 1px solid var(--color-primario);
+    border-radius: 5px;
+    height: 10rem;
+    color: var(--color-text);
+    font-size: 1rem;
+    outline: none;
+}
+.datos.adicional textarea:focus {
+    box-shadow: 0px 0px 10px #97a4e0c1;
+}
+.datos.adicional {
+    flex-direction: column;
+}
+.dato {
+    width: 30%;
+}
+
+.contacto-p{
+    font-size: 2rem;
+}
+
+.contacto-p .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacto-p img {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
