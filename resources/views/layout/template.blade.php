@@ -5,8 +5,8 @@
     <title>@yield('title')</title>
 
     {{-- style css --}}
-    <link rel="stylesheet" href="{{ asset('css/porta-style.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/contactame-style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/porta-style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/contactame-style.css') }}">
 
     {{-- Style Font Family --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
