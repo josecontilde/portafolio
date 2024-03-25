@@ -214,7 +214,7 @@ header {
     padding: 1.5rem;
     gap: 50px;
 }
-.content-proyectos h2{
+.content-proyectos .titulo{
     margin-top: 10vh;
     font-size: 3rem;
 }

@@ -1,7 +1,7 @@
 
     {{-- <h2 style="color: white">OLAAAAAAAAAAAAAAAAAAAA {{ $proyecto->nombre }} </h2> --}}
 <div class="content-proyectos" id="proyectos">
-    <h2>Proyectos</h2>
+    <h2 class="titulo">Proyectos</h2>
     @foreach ($proyectos as $proyecto)
     <div class="proyecto">
         <div class="img">
