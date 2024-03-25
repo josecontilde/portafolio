@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>@yield('title')</title>
+    <title>Portafolio</title>
 
     {{-- style css --}}
     <link rel="stylesheet" href="{{ secure_asset('css/porta-style.css') }}">
