@@ -6,6 +6,9 @@
 {{-- inicio Nav --}}
 
 <header>
+    <div class="nav-mobile">
+        <i class="fa-solid fa-bars"></i>
+    </div>
     <ul class="nav">
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#sobre">Sobre mi</a></li>
@@ -22,11 +25,11 @@
             <img src="{{ asset('img/jose-img.jfif') }}">
         </div>
         <div class="informacion">
-            <span class="nombre">Jose Veliz</span>
-            <span class="profesion">Developer</span>
+            <span class="nombre"><span class="profesion-color">Jos</span>e Veliz</span>
+            <span class="profesion"><span class="profesion-color">Dev</span>eloper</span>
             <div class="redes">
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-linkedin"></i>
+                <a href="https://github.com/josecontilde" id="github"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jos%C3%A9-veliz-b76891280/" id="linkedin"><i class="fa-brands fa-linkedin"></i></a>
                 <a class="curriculum" href="{{ asset('pdf/JoseDEV - CV.pdf') }}" download="CV - jose veliz developer.pdf">
                     Descargar CV
                 </a>
